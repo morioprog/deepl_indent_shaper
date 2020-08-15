@@ -9,7 +9,9 @@ def build_deepl_url(sentence, src="en", dst="ja"):
     return DEEPL_URL.format(src=src, dst=dst, sentence=urllib.parse.quote(sentence))
 
 def main():
-    st.title("DeepL Indent Shaper")
+    title = "DeepL Indent Shaper"
+    st.beta_set_page_config(page_title=title)
+    st.title(title)
 
     sentence_from = st.text_area("Input sentence", height=300)
     sentence_to = shape_sentence(sentence_from)
