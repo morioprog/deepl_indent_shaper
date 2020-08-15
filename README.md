@@ -1,6 +1,6 @@
 # DeepL Indent Shaper
 
-Fix the indentation when copying from the PDF and translate it using [DeepL](https://www.deepl.com/home).
+[DeepL Indent Shaper](https://deepl-indent-shaper.herokuapp.com/) fixes the indentation when copying from the PDF and translate it right away using [DeepL](https://www.deepl.com/home).
 
 ![Sample](./img/sample.png)
 
